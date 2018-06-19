@@ -300,7 +300,7 @@
 
 За счёт этого удается получить достаточно крутую траекторию и поразить цель в верхнюю проекцию. Важным критерием успешного поражения в данном случае является угол встречи с целью к вертикали, обозначаемый $\gamma$. Вид закона изменения угла пеленга и траектории представлен на рисунке \ref{fig:pre_hit_target}.
 
-Определение оптимальных с точки зрения перегрузок, действующих на ПТУР, момента начала уменьшения угла пеленга уменьшения и скорости уменьшения – задача оптимизации, так как при слишком резком уменьшении пеленга ракета будет испытывать большие поперечные перегрузки, а при слишком слабом траектория будет слишком пологой и угол $\gamma$ может помешать её поражению. Решение этой задачи подробно описано в пункте \ref{chapter:traectory_optimization}.
+Определение оптимальных с точки зрения перегрузок, действующих на ПТУР, момента начала уменьшения угла пеленга уменьшения и скорости уменьшения – задача оптимизации, так как при слишком резком уменьшении пеленга ракета будет испытывать большие поперечные перегрузки, а при слишком слабом траектория будет слишком пологой и угол $\gamma$ может помешать её поражению. Подробная постановка и решение этой задачи подробно описаны в пункте \ref{cha:ch_2} (страница \pageref{cha:ch_2}).
 
 В случае движения цели, целесообразно производить наведение в упрежденную точку, а в конце манёвра переводить наводить лазер на цель.
 Наличие ГСН позволяет бороться с влиянием на поражение цели случайных возмущений, например ветра.
@@ -371,8 +371,8 @@
 	\left\{
 			\begin{aligned}
 			\frac{dV}{dt} & = \frac{g \cdot \eta}{1 - \mu} - i \cdot C_{43} \left( \frac{V}{\alpha(Y)} \right) \cdot \frac{\rho(Y)V^2g}{2q_{m0}(1-\frac{g*\eta}{J_{10}})} - g\sin \left[ \arctg \left( \frac{Y-Y_{\text{ц}}}{X-X_\text{ц}} \right) \right] ; \\
-			\frac{dX}{dt} & = V \cdot \cos x  \left[ \arctg \left( \frac{Y-Y_{\text{ц}}}{X-X_\text{ц}} \right) \right] ; \\
-			\frac{dY}{dt} & = V \cdot \sin x  \left[ \arctg \left( \frac{Y-Y_{\text{ц}}}{X-X_\text{ц}} \right) \right] .\\
+			\frac{dX}{dt} & = V \cdot \cos \left[ \arctg \left( \frac{Y-Y_{\text{ц}}}{X-X_\text{ц}} \right) \right] ; \\
+			\frac{dY}{dt} & = V \cdot \sin \left[ \arctg \left( \frac{Y-Y_{\text{ц}}}{X-X_\text{ц}} \right) \right] .\\
 			\frac{dm}{dt} & = \frac{g \cdot \eta}{J_{10}}
 			\end{aligned}
 	\right.
@@ -386,8 +386,8 @@
 	\left\{
 			\begin{aligned}
 			\frac{dV}{dt} & =  - i \cdot C_{43} \left( \frac{V}{\alpha(Y)} \right) \cdot \frac{\rho(Y)V^2g}{2q_{m0}} - g\sin \left[ \arctg \left( \frac{Y-Y_{\text{ц}}}{X-X_\text{ц}} \right) \right] ; \\
-			\frac{dX}{dt} & = V \cdot \cos x  \left[ \arctg \left( \frac{Y-Y_{\text{ц}}}{X-X_\text{ц}} \right) \right] ; \\
-			\frac{dY}{dt} & = V \cdot \sin x  \left[ \arctg \left( \frac{Y-Y_{\text{ц}}}{X-X_\text{ц}} \right) \right] .\\
+			\frac{dX}{dt} & = V \cdot \cos \left[ \arctg \left( \frac{Y-Y_{\text{ц}}}{X-X_\text{ц}} \right) \right] ; \\
+			\frac{dY}{dt} & = V \cdot \sin \left[ \arctg \left( \frac{Y-Y_{\text{ц}}}{X-X_\text{ц}} \right) \right] .\\
 			\frac{dm}{dt} & = 0
 			\end{aligned}
 	\right.
