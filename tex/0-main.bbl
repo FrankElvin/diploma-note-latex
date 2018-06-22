@@ -15,6 +15,13 @@
 \newblock М.: Издательство МГТУ им. Н.Э. Баумана,
   1973, --- 48 c.
 
+\bibitem{TECHNO}
+\selectlanguageifdefined{russian}
+\BibEmph{Косилова~А.Г.,~Мещерекова~Р.К.}
+  Справочник технолога-машиностроителя. В
+  2-х т. Т. 2.~/ Мещерекова~Р.К.~Косилова~А.Г. ---
+\newblock М.: Машиностроение, 1985. --- 496 с.
+
 \bibitem{ECO}
 \selectlanguageifdefined{russian}
 \BibEmph{Юдин~Е.Я.~Белов~С.В.,~Баланцев~С.К.}

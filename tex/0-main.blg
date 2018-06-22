@@ -15,44 +15,44 @@ A level-1 auxiliary file: 61-bch-appendix.aux
 A level-1 auxiliary file: 62-rdtt-appendix.aux
 A level-1 auxiliary file: 63-techno-appendix.aux
 Database file #1: 0-main.bib
-You've used 16 entries,
+You've used 17 entries,
             2674 wiz_defined-function locations,
-            736 strings with 9214 characters,
-and the built_in function-call counts, 3645 in all, are:
-= -- 465
-> -- 61
-< -- 15
-+ -- 31
-- -- 15
-* -- 94
-:= -- 404
-add.period$ -- 47
-call.type$ -- 16
+            741 strings with 9385 characters,
+and the built_in function-call counts, 3875 in all, are:
+= -- 495
+> -- 65
+< -- 16
++ -- 33
+- -- 16
+* -- 100
+:= -- 429
+add.period$ -- 50
+call.type$ -- 17
 change.case$ -- 0
 chr.to.int$ -- 0
-cite$ -- 16
-duplicate$ -- 221
-empty$ -- 524
-format.name$ -- 30
-if$ -- 1035
+cite$ -- 17
+duplicate$ -- 235
+empty$ -- 557
+format.name$ -- 32
+if$ -- 1101
 int.to.chr$ -- 0
-int.to.str$ -- 16
+int.to.str$ -- 17
 missing$ -- 0
-newline$ -- 90
-num.names$ -- 30
-pop$ -- 128
+newline$ -- 95
+num.names$ -- 32
+pop$ -- 136
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 49
+skip$ -- 52
 stack$ -- 0
 substring$ -- 0
-swap$ -- 93
+swap$ -- 99
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 15
-width$ -- 18
-write$ -- 231
+while$ -- 16
+width$ -- 19
+write$ -- 245
